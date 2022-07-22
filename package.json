@@ -1,0 +1,19 @@
+{
+  "name": "parcel-watch-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "targets": {
+    "github": {
+      "source": "src/target-1.html",
+      "distDir": "dist/target1"
+    }
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
